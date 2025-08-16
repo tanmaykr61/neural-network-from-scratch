@@ -2,14 +2,14 @@
 
 ---
 
-# 🐱🐶 Neural Network for Binary Image Classification
+# Neural Network for Binary Image Classification
 
 This project implements a **fully-connected feedforward neural network** from scratch to classify images as **Cat** or **Dog**.
 The implementation covers **forward propagation, loss computation, backpropagation, and parameter updates** — without relying on deep learning libraries.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 * Input: Preprocessed images flattened into **12,000 features** (pixel intensity values).
 * Task: Binary classification →
@@ -20,7 +20,7 @@ The implementation covers **forward propagation, loss computation, backpropagati
 
 ---
 
-## 📐 Network Architecture
+## Network Architecture
 
 **Input Layer**
 
@@ -53,7 +53,7 @@ The implementation covers **forward propagation, loss computation, backpropagati
 
 ---
 
-## 📊 Loss Function
+## Loss Function
 
 We use **Binary Cross-Entropy (Log Loss):**
 
@@ -69,7 +69,7 @@ Where:
 
 ---
 
-## ⚙️ Training Workflow
+## Training Workflow
 
 1. **Forward Propagation** → compute activations layer by layer.
 2. **Loss Computation** → Binary Cross-Entropy.
@@ -79,7 +79,7 @@ Where:
 
 ---
 
-## 🔄 Forward & Backward Pass
+## Forward & Backward Pass
 
 * **Forward Pass:**
 
@@ -90,18 +90,18 @@ Where:
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
-📦 binary-classifier
- ┣ 📜 binary_classifier.ipynb   # Main notebook with full implementation
- ┣ 📜 README.md                  # Project documentation
- ┗ 📂 data/                      # (Optional) Folder for dataset
+binary-classifier
+ ┣ binary_classifier.ipynb   # Main notebook with full implementation
+ ┣ README.md                  # Project documentation
+ ┗ data/                      # (Optional) Folder for dataset
 ```
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
 
@@ -118,16 +118,7 @@ Where:
 
 ---
 
-## ✅ Future Improvements
-
-* Add **regularization** (L2 / Dropout).
-* Try **different activations** (Leaky ReLU, Tanh).
-* Replace handcrafted NN with **TensorFlow/PyTorch** implementation.
-* Experiment with **CNNs** for better image classification performance.
-
----
-
-## 📜 License
+## License
 
 This project is open-source under the **MIT License**.
 
