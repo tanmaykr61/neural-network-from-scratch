@@ -14,8 +14,8 @@ The implementation covers **forward propagation, loss computation, backpropagati
 * Input: Preprocessed images flattened into **12,000 features** (pixel intensity values).
 * Task: Binary classification →
 
-  * **0 → Cat 🐱**
-  * **1 → Dog 🐶**
+  * **0 → Cat**
+  * **1 → Dog**
 * Framework: Implemented in **Python (NumPy)** inside a Jupyter Notebook (`binary_classifier.ipynb`).
 
 ---
@@ -87,34 +87,6 @@ Where:
 * **Backpropagation:**
 
   * Start from output error → propagate backward → compute gradients for each weight.
-
----
-
-## File Structure
-
-```
-binary-classifier
- ┣ binary_classifier.ipynb   # Main notebook with full implementation
- ┣ README.md                  # Project documentation
- ┗ data/                      # (Optional) Folder for dataset
-```
-
----
-
-## How to Run
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/<your-username>/binary-classifier.git
-   cd binary-classifier
-   ```
-2. Open the Jupyter Notebook:
-
-   ```bash
-   jupyter notebook binary_classifier.ipynb
-   ```
-3. Run all cells to train the model.
 
 ---
 
