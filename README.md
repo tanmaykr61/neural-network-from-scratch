@@ -1,7 +1,3 @@
-# binary_classifier
-
----
-
 # Neural Network for Binary Image Classification
 
 This project implements a **fully-connected feedforward neural network** from scratch to classify images as **Cat** or **Dog**.
